@@ -22,7 +22,6 @@
 
 PRODUCT_PACKAGES += \
     BasicDreams \
-    Browser \
     Calendar \
     CalendarProvider \
     CaptivePortalLogin \
@@ -52,6 +51,7 @@ PRODUCT_PACKAGES += \
     Telecom \
     TeleService \
     VpnDialogs \
-    MmsService
+    MmsService \
+    chromium
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
