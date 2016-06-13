@@ -79,6 +79,7 @@ TARGET_GLOBAL_CFLAGS += \
 			-funwind-tables \
 			-fwrapv \
 			-Wa,--noexecstack \
+			-Wdate-time \
 			-Wsuggest-attribute=format \
 			-Wno-error=suggest-attribute=format \
 			-Werror=format-security \

@@ -81,6 +81,7 @@ $(combo_2nd_arch_prefix)TARGET_GLOBAL_CFLAGS += \
 			-O2 \
 			-fwrapv \
 			-Wa,--noexecstack \
+			-Wdate-time \
 			-Wsuggest-attribute=format \
 			-Wno-error=suggest-attribute=format \
 			-Werror=format-security \
