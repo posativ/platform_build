@@ -80,6 +80,7 @@ TARGET_GLOBAL_CFLAGS += \
 			-fwrapv \
 			-Wa,--noexecstack \
 			-Wdate-time \
+			-Wno-error=deprecated-declarations \
 			-Wsuggest-attribute=format \
 			-Wno-error=suggest-attribute=format \
 			-Werror=format-security \
