@@ -389,6 +389,12 @@ endif
   ADDITIONAL_BUILD_PROPERTIES += dalvik.vm.usejit=true
 endif
 
+## hardening ##
+
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_PIC := true
+DONT_DEXPREOPT_PREBUILTS := false
+
 ## sdk ##
 
 ifdef is_sdk_build
