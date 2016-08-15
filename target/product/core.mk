@@ -53,6 +53,9 @@ PRODUCT_PACKAGES += \
     MmsService \
     chromium \
     Updater \
-    F-Droid
+    F-Droid \
+    GmsCore \
+    GsfProxy \
+    FakeStore
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
